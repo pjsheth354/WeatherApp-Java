@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="baseLayer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="613.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.WeatherControl">
+   <children>
+      <TextField fx:id="inputText" layoutX="275.0" layoutY="93.0" prefHeight="15.0" prefWidth="289.0">
+         <font>
+            <Font name="Calibri" size="24.0" />
+         </font>
+      </TextField>
+      <Text layoutX="129.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Weather Application">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="212.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created by: Priyam Sheth (1233198)" />
+      <Button fx:id="buttonExample" layoutX="225.0" layoutY="152.0" mnemonicParsing="false" text="Get Weather Details">
+         <font>
+            <Font name="Calibri" size="14.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="welcomeText" layoutX="105.0" layoutY="194.0" prefHeight="240.0" prefWidth="403.0" />
+      <Text layoutX="44.0" layoutY="124.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the City Name:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+       <ToggleButton fx:id="fahrenClick" layoutX="427.0" layoutY="207.0" onAction="#fahrenTemp" prefHeight="24.0" prefWidth="28.0">
+           <graphic>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="°F" />
+           </graphic>
+       </ToggleButton>
+       <ToggleButton fx:id="celsClick" layoutX="454.0" layoutY="207.0" onAction="#celsTemp" prefHeight="24.0" prefWidth="28.0" selected="true">
+           <graphic>
+               <Text strokeType="OUTSIDE" strokeWidth="0.0" text="°C" />
+           </graphic>
+       </ToggleButton>
+      <Button fx:id="forecastClick" layoutX="375.0" layoutY="153.0" mnemonicParsing="false" onAction="#forecastData" prefHeight="25.0" prefWidth="98.0" text="Forecast" />
+   </children>
+</AnchorPane>

@@ -6,17 +6,15 @@ Weather Application Created using Java and Weather API to fetch the Current Weat
 
 2.	Invalid Location/Null Location: 
  <img width="658" height="540" alt="image" src="https://github.com/user-attachments/assets/5cc077cb-6e9d-4474-abf0-8799a9423622" />
-
  
 3.	Current Weather Details:
  <img width="636" height="524" alt="image" src="https://github.com/user-attachments/assets/d0db96e7-bcf7-48e9-9c61-75378c4a3927" />
-
  
 4.	Forecast Weather Details:
- <img width="701" height="576" alt="image" src="https://github.com/user-attachments/assets/44f7694a-0af8-4a34-a77f-a1dcdabe86d1" />
+ <img width="636" height="524" alt="image" src="https://github.com/user-attachments/assets/44f7694a-0af8-4a34-a77f-a1dcdabe86d1" />
 
 5.	Unit Conversion: 
- <img width="705" height="580" alt="image" src="https://github.com/user-attachments/assets/740db430-f5fb-49da-a47d-ac21ff9cc250" />
+ <img width="636" height="524" alt="image" src="https://github.com/user-attachments/assets/740db430-f5fb-49da-a47d-ac21ff9cc250" />
 
 API Used
  <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/3db05037-56aa-4426-bbb8-12979993f8a7" />

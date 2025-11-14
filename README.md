@@ -9,7 +9,7 @@ Weather Application Created using Java and Weather API to fetch the Current Weat
  
 3.	Current Weather Details:
  <img width="636" height="524" alt="image" src="https://github.com/user-attachments/assets/d0db96e7-bcf7-48e9-9c61-75378c4a3927" />
- 
+
 4.	Forecast Weather Details:
  <img width="636" height="524" alt="image" src="https://github.com/user-attachments/assets/44f7694a-0af8-4a34-a77f-a1dcdabe86d1" />
 
